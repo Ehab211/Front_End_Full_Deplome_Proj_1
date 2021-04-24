@@ -1,0 +1,107 @@
+/* Start Section Choose us */
+#choose {
+  /* height: 100vh; */
+  background-color: #f9f9f9;
+}
+#choose .box {
+  padding: 15px;
+}
+#choose .box .left_div {
+  float: var(--floatLeft);
+  width: 45%;
+}
+#choose .box .left_div .major_header {
+  padding: 200px 0 25px 15px;
+  margin: 0px 0 25px 0px;
+  text-align: start;
+  text-transform: capitalize;
+}
+#choose .box .left_div .major_header:after {
+  margin: 10px 0px 10px 0;
+}
+#choose .box .left_div .choose_content {
+  color: var(--fontColor);
+  line-height: 1.5rem;
+}
+#choose .box .left_div .choose_ul {
+  line-height: 3rem;
+  padding: 15px;
+}
+#choose .box .left_div .choose_ul li {
+  color: var(--fontColor);
+}
+#choose .box .left_div .choose_ul li .choose_icon {
+  margin: 0 20px 0px 0;
+  font-size: 1.3rem;
+  color: var(--mainColor);
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+}
+#choose .box .right_div {
+  padding: 200px 0 25px 15px;
+  margin: 0px 0 25px 0px;
+  float: right;
+  width: 45%;
+}
+#choose .box .right_div .slider {
+  position: relative;
+}
+#choose .box .right_div .slider img {
+  width: 100%;
+}
+#choose .box .right_div .slider .slider_control .left-arow,
+#choose .box .right_div .slider .slider_control .right-arow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+}
+#choose .box .right_div .slider .slider_control .right-arow {
+  right: 0;
+}
+#choose .box .right_div .slider .slider_control .left-arow .slider_arow_icon,
+#choose .box .right_div .slider .slider_control .right-arow .slider_arow_icon {
+  font-size: 3rem;
+  color: var(--secondColor);
+  background: var(--mainColor);
+  padding: 10px;
+}
+#choose .container .box .right_div .slider .slider_polet_control ul.slider_ul {
+  list-style: disc;
+  color: var(--mainColor);
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#choose
+  .container
+  .box
+  .right_div
+  .slider
+  .slider_polet_control
+  ul.slider_ul
+  li.active_li {
+  background-color: var(--mainColor);
+  border: 1px solid #3e332b;
+}
+#choose
+  .container
+  .box
+  .right_div
+  .slider
+  .slider_polet_control
+  ul.slider_ul
+  li {
+  display: inline-block;
+  background-color: transparent;
+  padding: 3px;
+  width: 20px;
+  height: 3px;
+  border-radius: 25%;
+  margin: 2px;
+  cursor: pointer;
+  border: 1px solid var(--mainColor);
+}
+/* End Section Choose us */

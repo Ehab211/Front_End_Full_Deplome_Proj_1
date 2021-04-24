@@ -1,0 +1,67 @@
+/* Start Features Section */
+#features {
+  background-color: #f9f9f9;
+}
+#features .card .features_card {
+  position: relative;
+  padding: 15px;
+  overflow: hidden;
+}
+#features .card .features_card:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+#features .card .features_card .features_img {
+  width: 100%;
+}
+#features .card .features_card .features_card_content {
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+}
+#features .features_card:hover .features_card_content {
+  visibility: visible;
+  opacity: 1;
+}
+#features .card .features_card .features_card_content .features_title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: var(--mainColor);
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+#features .card .features_card .features_card_content .features_header {
+  margin-bottom: 20px;
+  position: relative;
+  top: 10px;
+  transition-delay: 0.1s;
+}
+#features .card .features_card:hover .features_card_content .features_header {
+  color: white;
+}
+#features .card .features_card .features_card_content .features_card_icon {
+  font-size: 16px;
+  color: var(--secondColor);
+  padding: 20px;
+  background-color: var(--mainColor);
+  position: relative;
+  top: 10px;
+  transition-delay: 0.2s;
+}
+#features .card .features_card:hover .features_card_content .features_title,
+#features .card .features_card:hover .features_card_content .features_header,
+#features
+  .card
+  .features_card:hover
+  .features_card_content
+  .features_card_icon {
+  top: 0;
+}
+/* End Features Section */

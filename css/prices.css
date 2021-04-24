@@ -1,0 +1,62 @@
+/* Start Prices Section */
+#prices .card {
+  text-align: center;
+  padding: 40px;
+  margin: 17px;
+  width: 31%;
+  position: relative;
+}
+#prices .card::after {
+  z-index: -1;
+}
+#prices .card:hover::after {
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+#prices .card .prices_card_header {
+  padding: 20px;
+  text-transform: uppercase;
+  color: var(--fontColor);
+}
+#prices .card:hover .prices_card_header {
+  color: var(--secondColor);
+}
+#prices .card .price {
+  display: inline-block;
+  padding: 30px;
+  border: 2px solid var(--mainColor);
+  border-radius: 50%;
+  text-align: center;
+  width: 37%;
+}
+#prices .card .price h2 {
+  font-size: 3rem;
+}
+#prices .card .price span {
+  font-size: 1.2rem;
+}
+#prices .card:hover .price h2,
+#prices .card:hover .price span {
+  color: var(--secondColor);
+}
+#prices .card ul.plan_feature {
+  color: var(--fontColor);
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  padding: 30px;
+  text-transform: capitalize;
+}
+#prices .card:hover ul.plan_feature {
+  color: var(--hoverFontColor);
+}
+#prices .card button {
+  background: transparent;
+  border: 2px solid var(--mainColor);
+  width: 50%;
+  height: 50px;
+  color: var(--mainColor);
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+/* End Prices Section */

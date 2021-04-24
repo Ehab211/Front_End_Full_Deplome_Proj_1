@@ -1,0 +1,75 @@
+/* Start Contact Section */
+#contact {
+  background: #f9f9f9;
+  padding-bottom: 50px;
+}
+#contact .major_header {
+  margin: 0 auto 0 auto;
+}
+#contact .information .card {
+  border: none;
+  text-align: center;
+  padding: 15px;
+}
+#contact .information .card .contact_card .ourteam_card_icon {
+  font-size: 2.5rem;
+  color: var(--mainColor);
+  padding: 10px;
+}
+#contact .information .card .contact_card h3 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+#contact .information .card .contact_card span {
+  color: var(--fontColor);
+  padding: 10px;
+  display: block;
+}
+#contact .form {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+#contact .form input {
+  margin: 10px 0;
+  border: none;
+  background: #f2f2f2;
+  color: #3e332b;
+  outline: none;
+  font-size: 1.2rem;
+}
+#contact .form input[type="name"] {
+  width: 47%;
+  padding: 0 0 0 15px;
+  margin-right: 5px;
+}
+#contact .form input[type="email"] {
+  width: 47%;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+#contact .form input[type="text"] {
+  width: 96%;
+  padding: 5px 10px;
+}
+#contact .form textarea {
+  width: 96%;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: none;
+  background: #f2f2f2;
+  color: #3e332b;
+  outline: none;
+  font-size: 1.2rem;
+  resize: none;
+}
+#contact .form .contact-btn {
+  width: 175px;
+  background-color: var(--mainColor);
+  color: white;
+  padding: 12px 10px;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  margin: 25px;
+}
+/* End Contact Section */

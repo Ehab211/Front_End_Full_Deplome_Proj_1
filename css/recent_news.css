@@ -1,0 +1,40 @@
+/* Start Recent_News Section */
+#recent_news .card {
+  border: none;
+}
+#recent_news .card .recent_news_card {
+  padding: 15px;
+}
+#recent_news .card .recent_news_card .recent_news_img {
+  width: 100%;
+}
+#recent_news .card .recent_news_card ul {
+  display: block;
+  line-height: 2.5rem;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+#recent_news .card .recent_news_card ul li {
+  display: inline-block;
+  padding: 10px;
+}
+#recent_news .card .recent_news_card ul li .ourteam_card_icon {
+  color: var(--mainColor);
+}
+#recent_news .card .recent_news_card h2 {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+#recent_news .card .recent_news_card p {
+  padding: 10px;
+  color: var(--fontColor);
+  line-height: 1.5rem;
+}
+#recent_news .card .recent_news_card a {
+  padding: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--mainColor);
+  display: block;
+}
+/* End Recent_News Section */

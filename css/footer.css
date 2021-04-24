@@ -1,0 +1,22 @@
+/* Start Section Footer */
+footer {
+  background-color: #3e332b;
+  text-align: center;
+}
+footer img {
+  display: block;
+  margin: 0 auto;
+  padding: 65px 0 10px 0px;
+}
+footer .footer_icons {
+  font-size: 3rem;
+  color: var(--mainColor);
+  padding: 10px;
+}
+footer .copyright {
+  padding: 25px 0 60px 0;
+  color: var(--hoverFontColor);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+/* End Section Footer */

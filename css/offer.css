@@ -1,0 +1,37 @@
+/* Start Offer Section */
+#offer {
+  height: 100vh;
+}
+#offer .card .offer_card {
+  padding: 15;
+  position: relative;
+}
+
+#offer .card .offer_card:hover::after {
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+#offer .card .offer_card .offer_card_icon {
+  font-size: 2rem;
+  color: var(--mainColor);
+  padding: 20px 15px 0 0;
+}
+#offer .card .offer_card .offer_card_header {
+  display: inline-block;
+  font-size: 1.7rem;
+}
+#offer .card .offer_card:hover .offer_card_header {
+  color: var(--secondColor);
+}
+#offer .card .offer_card .offer_card_content {
+  padding: 15px 15px 30px 60px;
+  width: 80%;
+  line-height: 1.5rem;
+  color: var(--fontColor);
+}
+#offer .card .offer_card:hover .offer_card_content {
+  color: var(--hoverFontColor);
+}
+
+/* End Offer Section */

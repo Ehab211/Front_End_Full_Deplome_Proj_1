@@ -1,0 +1,47 @@
+/* Sart Home Section */
+#home {
+  height: 100vh;
+  position: relative;
+  background: url(../Image/background/background1.webp) fixed;
+  background-position-y: 30%;
+  background-size: cover;
+}
+#home .home_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+#home .home_content .title {
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0;
+  letter-spacing: 4.6px;
+}
+#home .home_content .home_desc {
+  padding: 20px 0;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+#home .home_content .btn_start {
+  width: 130px;
+  color: #3e332b;
+  background: var(--secondColor);
+  padding: 12px 10px;
+}
+#home .home_content .btn_learn {
+  width: 130px;
+  background-color: var(--mainColor);
+  color: white;
+  padding: 12px 10px;
+}
+#home .btn_start:hover,
+#home .btn_learn:hover {
+  opacity: 0.9;
+}
+/* End Home Section */

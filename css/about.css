@@ -1,0 +1,53 @@
+/* Start About Section */
+#about {
+  height: 100vh;
+}
+#about .card .about_card {
+  position: relative;
+  padding: 15px;
+}
+#about .card .about_card:hover::after {
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+#about .card .about_card .about_card_icon {
+  font-size: 35px;
+  color: var(--mainColor);
+  text-align: center;
+  display: block;
+  margin: 0px auto 30px auto;
+}
+#about .card .about_card .about_card_header {
+  padding: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+#about .card .about_card:hover .about_card_header {
+  color: var(--secondColor);
+}
+#about .card .about_card .about_card_content {
+  padding: 5px;
+  text-align: center;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  width: 80%;
+  margin: auto;
+  color: var(--fontColor);
+}
+#about .card .about_card:hover .about_card_content {
+  color: var(--hoverFontColor);
+}
+#about .card .about_card .about_card_more {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: var(--mainColor);
+  padding: 5px;
+  margin: 5px;
+}
+#about .card .about_card .about_card_more:hover {
+  text-decoration: underline;
+}
+/* End About Section */

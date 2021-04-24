@@ -1,0 +1,301 @@
+@media (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .card {
+    width: 100%;
+    float: var(--floatLeft);
+    margin: 10px auto;
+    border: 1px solid rgb(188 172 136 / 25%);
+  }
+  .pd-b-150 {
+    padding-bottom: 50px;
+  }
+  .xs-md-font-size {
+    font-size: 14px;
+  }
+  .clear {
+    clear: both;
+  }
+  header {
+    background-color: #3e332b;
+    padding: 20px 0;
+  }
+  header .header_content .logo {
+    width: auto;
+    background-color: #ee5637;
+  }
+  header .header_content a img {
+    top: 0;
+  }
+  header .header_content ul.nav {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    width: 100%;
+  }
+  header .header_content ul.nav > li {
+    display: block;
+  }
+  header .header_content ul.nav > li > a {
+    display: block;
+    text-align: start;
+  }
+  header .header_content ul.nav > li > a.ctive::after,
+  header .header_content ul.nav > li > a::after {
+    content: none;
+  }
+  #home .home_content {
+    position: absolute;
+    top: 60%;
+    width: 90%;
+  }
+  #home .home_content .title {
+    padding: 20px 0;
+    letter-spacing: 2px;
+    font-size: 22px;
+  }
+  #home .home_content .home_desc {
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  #home .home_content .btn_start {
+    margin-top: 60px;
+    width: 125px;
+    padding: 12px 10px;
+  }
+  #home .home_content .btn_learn {
+    margin-top: 60px;
+    width: 125px;
+    padding: 12px 10px;
+  }
+  #about .card .about_card:hover::after {
+    display: none;
+  }
+
+  #about .card .about_card:hover .about_card_header {
+    color: #3e332b;
+  }
+  #about .card .about_card:hover .about_card_content {
+    color: #7d7d7d;
+  }
+  #about .card .about_card .about_card_header {
+    font-size: 18px;
+  }
+  #about .card .about_card .about_card_more {
+    font-size: 14px;
+  }
+  .major_header,
+  #choose .box .left_div .major_header {
+    margin: 40px auto 40px;
+    width: 100%;
+    padding: 40px 0px 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #features .card .features_card::after {
+    display: none;
+  }
+  #features .card .features_card .features_card_content {
+    position: static;
+    padding: 20px;
+    top: none;
+    left: none;
+    transform: translate(0, 0);
+    visibility: visible;
+    opacity: 1;
+  }
+  #features .card .features_card .features_card_content .features_title,
+  #features .card .features_card .features_card_content .features_header,
+  #features .card .features_card .features_card_content .features_card_icon,
+  #features .card .features_card:hover .features_card_content .features_title,
+  #features .card .features_card:hover .features_card_content .features_header,
+  #features
+    .card
+    .features_card:hover
+    .features_card_content
+    .features_card_icon {
+    top: 0;
+  }
+  #features .card .features_card .features_card_content .features_title,
+  #features .card .features_card .features_card_content .features_header {
+    font-size: 16px;
+  }
+  #features .card .features_card .features_card_content .features_card_icon {
+    padding: 8px;
+  }
+  #features .card .features_card:hover .features_card_content .features_header {
+    color: #3e332b;
+  }
+  #offer .card .offer_card:hover::after {
+    width: 0%;
+    visibility: hidden;
+    opacity: 0;
+  }
+  #offer .card .offer_card .offer_card_icon {
+    font-size: 25px;
+    padding: 20px 15px 0 0;
+  }
+  #offer .card .offer_card .offer_card_header {
+    display: inline-block;
+    font-size: 18px;
+  }
+  #offer .card .offer_card:hover .offer_card_header {
+    color: #3e332b;
+  }
+  #offer .card .offer_card .offer_card_content {
+    padding: 15px 15px 15px 60px;
+    width: 100%;
+    line-height: 20px;
+  }
+  #offer .card .offer_card:hover .offer_card_content {
+    color: #7d7d7d;
+  }
+  #choose .box .left_div {
+    width: 100%;
+  }
+  #choose .box .left_div .choose_ul {
+    line-height: 3rem;
+    padding: 15px 0 15px 0;
+  }
+  #choose .box .right_div {
+    display: none;
+  }
+  #choose .box .left_div .major_header:after {
+    margin: 10px auto 0px auto;
+  }
+  #choose .box .left_div .choose_ul li .choose_icon {
+    margin: 0 15px 0px 0;
+    font-size: 11px;
+    padding: 5px;
+  }
+  #statistics {
+    height: fit-content;
+    margin: 80px auto 80px auto;
+  }
+  #statistics .statistics_card {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  #statistics .overlay {
+    height: fit-content;
+  }
+  #statistics .statistics_card .statistics_icon {
+    font-size: 40px;
+    padding: 5px;
+  }
+  #prices .card {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    margin: 20px auto;
+  }
+  #prices .card .price {
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+  }
+  #prices .card::after {
+    display: none;
+  }
+  #prices .card:hover .price h2,
+  #prices .card:hover .price span {
+    color: #3e332b;
+  }
+  #prices .card:hover .prices_card_header,
+  #prices .card:hover ul.plan_feature {
+    color: #7d7d7d;
+  }
+  #testimonial {
+    height: fit-content;
+    margin: 80px auto 80px auto;
+  }
+  #testimonial .overlay {
+    height: fit-content;
+    padding: 50px 15px;
+  }
+
+  #testimonial .testimonial_item .testimonial_img {
+    text-align: center;
+  }
+
+  #testimonial .testimonial_item {
+    float: none;
+    padding: 0;
+    width: 100%;
+    margin: 100px 0 0 0;
+  }
+  #testimonial .overlay .container .testimonial_item:first-child {
+    margin-top: 0;
+  }
+  #ourteam .card .ourteam_card:hover::after {
+    display: none;
+  }
+  #ourteam .card .ourteam_card .img_parent .ourteam_card_social {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    height: 35px;
+    width: 125px;
+    margin: 20px auto 0 auto;
+    text-align: start;
+  }
+  #ourteam .card .ourteam_card:hover .img_parent .ourteam_card_social {
+    height: 35px;
+  }
+  #ourteam
+    .card
+    .ourteam_card
+    .img_parent
+    .ourteam_card_social
+    .ourteam_card_icon {
+    padding: 10px;
+  }
+  #ourteam .card .ourteam_card:hover .img_parent .details h2 {
+    color: #3e332b;
+  }
+  #ourteam .card .ourteam_card .img_parent .details span {
+    color: #ee5637;
+  }
+  #contact .information .card .contact_card .ourteam_card_icon {
+    font-size: 30px;
+    padding: 0;
+  }
+  #contact .information .card .contact_card h3 {
+    font-size: 18px;
+    display: inline-block;
+  }
+  #contact .form input[type="name"],
+  #contact .form input[type="email"] {
+    width: 100%;
+  }
+  #contact .form .contact-btn {
+    width: 127px;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+  }
+  #contact .form textarea {
+    height: 20%;
+  }
+  footer img {
+    padding: 10px 0 10px 0px;
+    width: 80px;
+  }
+  footer .footer_icons {
+    font-size: 30px;
+    padding: 2px;
+  }
+  footer .copyright {
+    padding: 20px 5px 20px 5px;
+    font-size: 14px;
+  }
+  #contact .information .card {
+    float: none;
+    width: 60%;
+  }
+}

@@ -1,0 +1,168 @@
+/* Public */
+/* 
+    - *
+    - body
+    - :root
+    - h*
+    - ul
+    - placeholder
+*/
+/* Common */
+/*
+    - Clear
+    - Container
+    - Overlay
+    - btn
+    - hover-opacity
+    - major_header
+    - major_header:after
+    - card
+    - Hover Effect_1 (_Left to right_)
+    - Hover Effect_2 (_Top to bottom_)
+*/
+/* Sections */
+/* 
+  1- Header
+  2- Home Section
+*/
+/* Public Style For All Page */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  direction: ltr;
+}
+body {
+  font-family: "Varela Round", sans-serif;
+}
+:root {
+  --mainColor: #ee5637;
+  --secondColor: snow;
+  --fontColor: #7d7d7d;
+  --hoverFontColor: #d1d1d1;
+  --floatLeft: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #3e332b;
+  text-transform: capitalize;
+}
+ul {
+  list-style: none;
+}
+::placeholder {
+  color: #8d8d8d8d;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+:-ms-input-placeholder {
+  color: #7d7d7d7d;
+  opacity: 0.8;
+}
+::-ms-input-placeholder {
+  color: #7d7d7d7d;
+  opacity: 0.8;
+}
+/* End Public Style */
+/* Start Common Style */
+.clear {
+  clear: both;
+}
+.transitionEffect {
+  transition: 0.4s ease all;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.overlay {
+  height: 100vh;
+  width: 100%;
+  background: rgb(62 51 43 / 85%);
+}
+.btn {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  margin: 17px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+.major_header {
+  font-size: 30px;
+  text-align: center;
+  margin: 0px auto 50px;
+  width: 500px;
+  display: block;
+  padding: 150px 0px 50px;
+  text-transform: capitalize;
+}
+.major_header:after {
+  content: " ";
+  width: 15%;
+  height: 4px;
+  background-color: var(--mainColor);
+  margin-top: 5px;
+  transition: 0.3s ease width;
+  display: block;
+  margin: 10px auto 0px auto;
+}
+.card {
+  width: 32%;
+  float: var(--floatLeft);
+  margin: 10px;
+  border: 1px solid rgb(188 172 136 / 25%);
+}
+.pd-b-150 {
+  padding-bottom: 150px;
+}
+/* End Common Style */
+/* Groubing */
+.major_header::after,
+header .header_content ul.nav > li > a.ctive::after,
+header .header_content ul.nav > li > a::after,
+header .header_content ul.nav .dropdown .fa-angle-right {
+  transition: 0.4s ease all;
+}
+#about .card .about_card::after,
+#offer .card .offer_card::after {
+  z-index: -1;
+}
+#ourteam .card .ourteam_card::after,
+#prices .card::after {
+  height: 0;
+}
+#about .card .about_card::after,
+#offer .card .offer_card::after {
+  width: 0;
+}
+#about .card .about_card::after,
+#features .card .features_card::after,
+#offer .card .offer_card::after,
+#ourteam .card .ourteam_card::after,
+#prices .card::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgb(62 51 43 / 85%);
+  transition: 0.4s ease all;
+}
+/* ./Groubing */
