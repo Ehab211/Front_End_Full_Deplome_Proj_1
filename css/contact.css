@@ -25,12 +25,12 @@
   padding: 10px;
   display: block;
 }
-#contact .form {
+#contact form {
   width: 70%;
   margin: 0 auto;
   text-align: center;
 }
-#contact .form input {
+#contact form input {
   margin: 10px 0;
   border: none;
   background: #f2f2f2;
@@ -38,21 +38,21 @@
   outline: none;
   font-size: 1.2rem;
 }
-#contact .form input[type="name"] {
+#contact form input[type="name"] {
   width: 47%;
-  padding: 0 0 0 15px;
+  padding: 5px 10px;
   margin-right: 5px;
 }
-#contact .form input[type="email"] {
+#contact form input[type="email"] {
   width: 47%;
   padding: 5px 10px;
   margin-left: 5px;
 }
-#contact .form input[type="text"] {
+#contact form input[type="text"] {
   width: 96%;
   padding: 5px 10px;
 }
-#contact .form textarea {
+#contact form textarea {
   width: 96%;
   padding: 5px 10px;
   margin: 10px 0;
@@ -63,7 +63,7 @@
   font-size: 1.2rem;
   resize: none;
 }
-#contact .form .contact-btn {
+#contact form .contact-btn {
   width: 175px;
   background-color: var(--mainColor);
   color: white;

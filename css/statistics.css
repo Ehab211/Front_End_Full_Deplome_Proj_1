@@ -11,7 +11,7 @@
 }
 #statistics .statistics_card {
   width: 25%;
-  padding: 15;
+  padding: 15px;
   float: var(--floatLeft);
   text-align: center;
 }

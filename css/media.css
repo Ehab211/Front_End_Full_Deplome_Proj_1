@@ -229,7 +229,7 @@
     width: 100%;
     margin: 100px 0 0 0;
   }
-  #testimonial .overlay .container .testimonial_item:first-child {
+  #testimonial .overlay .container .testimonial_item:first-of-type {
     margin-top: 0;
   }
   #ourteam .card .ourteam_card:hover::after {
@@ -269,17 +269,17 @@
     font-size: 18px;
     display: inline-block;
   }
-  #contact .form input[type="name"],
-  #contact .form input[type="email"] {
+  #contact form input[type="name"],
+  #contact form input[type="email"] {
     width: 100%;
   }
-  #contact .form .contact-btn {
+  #contact form .contact-btn {
     width: 127px;
     padding: 10px 10px;
     font-size: 16px;
     margin: 10px 0 0 0;
   }
-  #contact .form textarea {
+  #contact form textarea {
     height: 20%;
   }
   footer img {

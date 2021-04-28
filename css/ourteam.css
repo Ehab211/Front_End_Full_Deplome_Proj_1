@@ -32,7 +32,7 @@
 #ourteam .card .ourteam_card:hover .img_parent .ourteam_card_social {
   opacity: 1;
   visibility: visible;
-  height: 27%;
+  height: 28%;
   z-index: 1;
 }
 #ourteam

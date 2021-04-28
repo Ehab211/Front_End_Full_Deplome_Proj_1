@@ -1,5 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- [if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,8 +23,13 @@
     <!-- css file -->
     <!-- FontAwesome -->
     <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- FontAwesome -->
+    <!-- Normalize -->
     <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Normalize -->
+    <!-- mainStyle -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- mainStyle -->
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/about.css" />
@@ -34,7 +43,7 @@
     <link rel="stylesheet" href="./css/recent_news.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/mediaQuerey.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Template_One_(HTML & CSS)</title>
   </head>
   <body>
@@ -54,7 +63,7 @@
           </div>
           <ul class="nav">
             <li><a class="ctive" href="#">home</a></li>
-            <li><a href="#About">about</a></li>
+            <li><a href="#about">about</a></li>
             <li><a href="#features">portofolio</a></li>
             <li><a href="#offer">services</a></li>
             <li><a href="#choose">about</a></li>
@@ -97,7 +106,7 @@
     <div class="clear"></div>
     <!-- End Home Section -->
     <!-- Start About Section -->
-    <section class="pd-b-150" id="About">
+    <section id="about" class="pd-b-150">
       <div class="container">
         <div class="major_header">
           <h2>welcome to website</h2>
@@ -139,7 +148,7 @@
       </div>
     </section>
     <div class="clear"></div>
-    <!-- Start About Section -->
+    <!-- End About Section -->
     <!-- Start Features Section -->
     <section class="pd-b-150" id="features">
       <div class="container">
@@ -808,7 +817,7 @@
           </div>
           <div class="clear"></div>
         </div>
-        <div class="form">
+        <form>
           <input type="name" title="name" placeholder="name" />
           <input type="email" title="email" placeholder="email" />
           <input type="text" title="subject" placeholder="subject" />
@@ -820,7 +829,7 @@
             rows="10"
           ></textarea>
           <button class="btn contact-btn">send message</button>
-        </div>
+        </form>
       </div>
     </section>
     <div class="clear"></div>
